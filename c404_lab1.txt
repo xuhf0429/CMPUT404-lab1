@@ -3,7 +3,7 @@ Q2. Version of Request under Local Machine: 2.24.0
 Q3. Version of Request under Virtual Environment: 2.25.1
 Q4. The only difference between non-virtual and virtual environment is that the requests versions are different, in which case the version under virtual environment is higher.
 Q5. It shows “301 Moved Permanently”. The correct url that should be visited is https://www.google.com
-Q6. The status code received is 418 I’m a teapot, it is returned by both curl -i and curl -iL. It returns a html format file
+Q6. The status code received is 418 I’m a Teapot, it is returned by curl -iL; and the status code returned is 301 Moved Permanently. It returns status code 418 I'm a Teapot
 Q7. The difference between using the two commands is that the unique id at the bottom of the page is changed. Using the first command, the unique id is X-zsRuMhV92FQZMDfyYA3gAAAAI
 Using the second command, it is X-ztkXbofr6q3L0zWykwUgAAAAk
 -X POST method might be useful when creating a new object
