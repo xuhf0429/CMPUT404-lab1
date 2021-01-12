@@ -7,5 +7,6 @@ Q6. The status code received is 418 I’m a teapot, it is returned by both curl 
 Q7. The difference between using the two commands is that the unique id at the bottom of the page is changed. Using the first command, the unique id is X-zsRuMhV92FQZMDfyYA3gAAAAI
 Using the second command, it is X-ztkXbofr6q3L0zWykwUgAAAAk
 -X POST method might be useful when creating a new object
-Q8. https://github.com/xuhf0429/CMPUT404-lab1/blob/main/script.py
+Q8. https://raw.githubusercontent.com/xuhf0429/CMPUT404-lab1/main/script.py
+
 
