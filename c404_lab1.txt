@@ -1,9 +1,9 @@
-Q1. My Github URL is: https://github.com/xuhf0429/CMPUT404-lab1
+Q1. My Github URL is: https://github.com/xuhf0429
 Q2. Version of Request under Local Machine: 2.24.0
 Q3. Version of Request under Virtual Environment: 2.25.1
 Q4. The only difference between non-virtual and virtual environment is that the requests versions are different, in which case the version under virtual environment is higher.
 Q5. It shows “301 Moved Permanently”. The correct url that should be visited is https://www.google.com
-Q6. The status code received is "301 Moved Permanently", it is returned by curl -i; and the status code returned are "301 Moved Permanently" when using curl -iL. It returns status code "418 I'm a Teapot" when curling http://www.google.com/teapot
+Q6. The status code received is "301 Moved Permanently", it is returned by curl -i; and the status code returned are "301 Moved Permanently" and "418 I'm a Teapot" when using curl -iL. It returns status code "418 I'm a Teapot" when curling http://www.google.com/teapot
 Q7. The difference between using the two commands is that the request methods are different. Simply sending curl -i, the request method is GET. Adding -X POST, the request method is POST.
 POST method might be useful when sending data to the server that is to be processed, and it modifies the server and provides more data to the users.
 Q8. https://raw.githubusercontent.com/xuhf0429/CMPUT404-lab1/main/script.py
